@@ -18,15 +18,6 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
-  
-   <distributionManagement>
-    <repository>
-      <id>snapshot</id>
-      <name>Maven-snapshot</name>
-      <url>http://localhost:8081/repository/maven-snapshots/</url>
-    </repository>
-  </distributionManagement>
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
